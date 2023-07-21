@@ -18,6 +18,8 @@
     "@angular/platform-browser": "^16.1.0",
     "@angular/platform-browser-dynamic": "^16.1.0",
     "@angular/router": "^16.1.0",
+    "@videogular/ngx-videogular": "^8.0.0",
+    "bootstrap": "^5.3.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
@@ -26,6 +28,7 @@
     "@angular-devkit/build-angular": "^16.1.4",
     "@angular/cli": "~16.1.4",
     "@angular/compiler-cli": "^16.1.0",
+    "@types/core-js": "^2.5.5",
     "@types/jasmine": "~4.3.0",
     "jasmine-core": "~4.6.0",
     "karma": "~6.4.0",
