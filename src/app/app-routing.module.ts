@@ -28,7 +28,7 @@ const routes: Routes = [
     component: ChildComponent,
   },
   {
-    path: '',
+    path: 'reactiveform',
     component: ReactiveformComponent,
   },
 ];
