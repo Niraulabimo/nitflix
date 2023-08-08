@@ -13,6 +13,11 @@ import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { ChhoraComponent } from './parent/chhora/chhora.component';
 import { ReactiveformComponent } from './reactiveform/reactiveform.component';
+import { Component1Component } from './component1/component1.component';
+import { Component2Component } from './component2/component2.component';
+import { Component3Component } from './component3/component3.component';
+import { SandbsComponent } from './sandbs/sandbs.component';
+import { BehavioursubjectComponent } from './behavioursubject/behavioursubject.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +32,11 @@ import { ReactiveformComponent } from './reactiveform/reactiveform.component';
     ChildComponent,
     ChhoraComponent,
     ReactiveformComponent,
+    Component1Component,
+    Component2Component,
+    Component3Component,
+    SandbsComponent,
+    BehavioursubjectComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule],
   providers: [],

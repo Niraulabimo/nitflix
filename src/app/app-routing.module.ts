@@ -7,6 +7,7 @@ import { NestedfarrayComponent } from './nestedfarray/nestedfarray.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { ReactiveformComponent } from './reactiveform/reactiveform.component';
+import { SandbsComponent } from './sandbs/sandbs.component';
 
 const routes: Routes = [
   { path: 'form', component: FormarrayComponent },
@@ -30,6 +31,10 @@ const routes: Routes = [
   {
     path: 'reactiveform',
     component: ReactiveformComponent,
+  },
+  {
+    path: '',
+    component: SandbsComponent,
   },
 ];
 
